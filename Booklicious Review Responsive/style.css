@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+#nav{
+    color: rgb(60, 7, 113);
+    font-weight: bold;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+#bg {
+    background-color: #f8d5ff !important; /* Lightest purple */
+    box-shadow: 2px 2px 10px black;
+}
+#nav span{
+    color: rgb(115, 19, 19);
+    font-size: 27px;
+    font-weight: bold;
+    font-family: "Cedarville Cursive", cursive;
+}
+.nav-item a{
+    color: black !important;
+    font-size: 20px;
+}
+li a:hover{
+    color: purple !important;
+}
+.btn-outline-success{
+    color: purple;
+    border-color: purple;
+}
+.btn-outline-success:hover{
+    background-color: purple !important;
+}
+
+/* Style for the caraousel */
+.carousel-item img{
+    height: 700px;
+    filter: brightness(40%);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.carousel-item img:hover {
+    transform: scale(1.05);
+}
+.carousel-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out, transform 0.3s ease-in-out, opacity 0.3s ease;
+}
+.carousel-text-overlay:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+.carousel-text-overlay h1 {
+    font-size: 2.9rem;
+    margin-bottom: 10px;
+}
+
+.carousel-text-overlay p {
+    font-size: 1.2rem;
+}
+
+
+/* Style for the review part */
+.heading h1{
+    color: purple;
+    font-size: 2.7rem;
+}
+.heading h1:hover{
+    color: black;
+}
+.cards{
+   margin:auto;
+}
+.cards img{
+    height: 300px;
+    border-radius: 20px;
+}
+.card{
+    box-shadow: 2px 2px 30px grey;
+    border-radius: 20px;
+    text-align: center;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.cards a{
+    background-color: purple;
+    border-color: purple;
+    transition: background-color 0.3s ease, color 0.3s ease, font-weight 0.3s ease, border-color 0.3s ease;
+}
+.cards a:hover{
+    background-color: transparent;
+    color: purple;
+    font-weight: bold;
+    border-color: purple;
+}
+
+
+/* Style for the form */
+.container h1{
+    color: purple;
+    font-size: 2.7rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+.container h1:hover{
+    color: black;
+}
+.form {
+    background-color: #f8d5ff; /* Lightest purple to match navbar */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    max-width: 900px;
+    margin-bottom: 50px;
+}
+
+.form-label {
+    color: rgb(60, 7, 113); /* Dark purple color for labels */
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #d1a8e1; /* Light purple border */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.forms:focus {
+    border-color: purple;
+    box-shadow: 0 0 0 0.2rem rgba(128, 0, 128, 0.25); /* Purple focus outline */
+}
+
+.btn-primary {
+    background-color: purple;
+    border-color: purple;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border-color: purple;
+    color: purple;
+    font-weight: bold;
+}
+
+.form-check-input:checked {
+    background-color: purple;
+    border-color: purple;
+}
+
+.form-check-label {
+    color: rgb(60, 7, 113); /* Dark purple color for labels */
+}
+
+.btn-primary {
+    color: white;
+}
+
+
+/* Footer Styles */
+.custom-footer {
+    background-color: #f8d5ff; /* Light purple background */
+    color: rgb(60, 7, 113); /* Dark purple text */
+    padding: 40px 20px;
+    border-top: 3px solid purple; /* Dark purple border at the top */
+}
+
+.custom-footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.custom-footer p {
+    font-size: 1rem;
+}
+
+.custom-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.custom-footer ul li {
+    margin-bottom: 10px;
+}
+
+.custom-footer ul li a {
+    color: rgb(60, 7, 113);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.custom-footer ul li a:hover {
+    color: purple;
+    text-decoration: underline;
+}
+
+.custom-footer .text-center p {
+    font-size: 1rem;
+    color: rgb(60, 7, 113);
+}
+
+/* Transition effect for hover states */
+.custom-footer ul li a,
+.custom-footer .text-center p {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.custom-footer ul li a:hover,
+.custom-footer .text-center p:hover {
+    color: purple;
+    transform: scale(1.05);
+}
