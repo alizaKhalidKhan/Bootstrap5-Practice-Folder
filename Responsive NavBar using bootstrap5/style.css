@@ -1,0 +1,82 @@
+/* Resetting default margins, padding, and setting box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Container customization */
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.navbar{
+    background-color: white !important;
+}
+/* Logo styling */
+.navbar-brand img {
+    width: 130px;
+}
+
+/* Navbar items styling */
+.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Navbar active link styling */
+.navbar-nav .nav-item .nav-link.active {
+    color: black; /* You can change this to any color you'd like for the active link */
+}
+
+/* Centering the navbar items */
+.navbar-collapse {
+    justify-content: center;
+}
+
+/* Center the navbar items, including the Sign-Up button */
+.navbar-nav {
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Sign-up button styling */
+.btn-warning {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(253, 182, 50);
+    border: none;
+    border-radius: 10px;
+}
+
+/* Sign-up button link styling */
+.btn-warning a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Media query to adjust the layout for smaller screens */
+@media (max-width: 991.98px) {
+    /* Ensure the navbar items are centered when the menu is collapsed */
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .navbar{
+        background-color: whitesmoke !important;
+    }
+    /* Align sign-up button to the center with other items in collapsed menu */
+    .btn-warning {
+        display: block;
+        margin: 10px auto;
+    }
+}
